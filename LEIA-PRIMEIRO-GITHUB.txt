@@ -1,0 +1,11 @@
+PERTOO - SITE DEMONSTRATIVO PARA GITHUB PAGES
+
+1. Extraia este ZIP no computador.
+2. Entre na pasta extraida e selecione TODOS os arquivos e a pasta branding.
+3. No GitHub, Add file > Upload files, arraste os itens extraidos (NAO o ZIP).
+4. Commit changes.
+5. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+
+O index.html deve ficar na RAIZ do repositorio.
+Esta versao e demonstrativa: GitHub Pages nao executa Python, SQLite ou a API de reservas reais.
+Nao use para vendas reais nem insira dados privados.

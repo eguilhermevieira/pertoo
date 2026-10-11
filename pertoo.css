@@ -1,0 +1,12 @@
+/* PERTOO-BRANDING-V1: identidade aprovada. */
+:root{--pertoo-orange:#FF6816;--pertoo-green:#169E42;--pertoo-dark:#0B3034;--pertoo-light:#F8F9F6;--green:#0B3034;--lime:#FFF0CA;--ink:#0B3034;--bg:#F8F9F6}
+body{background-color:var(--pertoo-light);color:var(--pertoo-dark)}
+.pertoo-brand{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:0 0 20px;max-width:100%}.pertoo-brand img{width:clamp(180px,32vw,310px);height:auto;max-width:100%;display:block}.pertoo-brand p{margin:0;font-size:16px;line-height:1.4;color:inherit}.pertoo-brand strong{color:inherit}.pertoo-brand .slogan{display:block}
+.brand img{width:230px;height:auto;max-width:100%;display:block}.brand{letter-spacing:normal;max-width:45%}
+header{background-color:var(--pertoo-dark);color:white}header .location,header .location strong{color:white}header a{color:white!important}
+.hero{background-color:var(--pertoo-dark)}.hero-art{transform:none;background:transparent}.hero-art img{width:130px;height:auto;max-width:100%}
+button{border-radius:14px}button:not(.secondary):not([disabled]){background-color:var(--pertoo-dark);color:white}.categories button:not(.active){background:white;color:var(--pertoo-dark)}
+a{color:var(--pertoo-dark)}:focus-visible{outline:3px solid var(--pertoo-orange)!important;outline-offset:3px}
+.pertoo-report{border-left:4px solid var(--pertoo-orange);padding-left:14px}.pertoo-commercial-card{border-radius:20px;padding:24px;background:white;margin:20px 0}
+@media(max-width:600px){.brand{max-width:100%;width:100%}.brand img{width:190px}.top{flex-wrap:wrap;gap:12px;padding:16px!important}.pertoo-brand{gap:8px}.pertoo-brand p{font-size:16px}.hero-art{display:none}.pertoo-brand img{width:240px}}
+@media print{.pertoo-brand img{width:220px}.pertoo-brand{break-inside:avoid}}
